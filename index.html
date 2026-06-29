@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tss - 汤深深的作品集</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Noto Serif SC", "Source Han Serif SC", "STSong", "SimSun", Georgia, serif;
+      background: #faf8f5;
+      color: #1a1a1a;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 80px 24px;
+    }
+    h1 {
+      font-size: 32px;
+      text-align: center;
+      margin-bottom: 8px;
+      letter-spacing: 6px;
+    }
+    .subtitle {
+      text-align: center;
+      color: #888;
+      font-size: 15px;
+      margin-bottom: 48px;
+    }
+    .intro {
+      text-align: center;
+      color: #555;
+      margin-bottom: 48px;
+      font-size: 16px;
+    }
+    .book-list {
+      list-style: none;
+    }
+    .book-item {
+      margin-bottom: 32px;
+      padding: 28px 32px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      transition: box-shadow 0.2s;
+    }
+    .book-item:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .book-item a {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .book-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 6px;
+      color: #1a1a1a;
+    }
+    .book-meta {
+      font-size: 14px;
+      color: #999;
+      margin-bottom: 10px;
+    }
+    .book-desc {
+      font-size: 15px;
+      color: #555;
+      line-height: 1.6;
+    }
+    .footer {
+      text-align: center;
+      color: #ccc;
+      font-size: 13px;
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+    }
+    @media (max-width: 600px) {
+      .container { padding: 40px 16px; }
+      h1 { font-size: 26px; }
+      .book-item { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>tss</h1>
+    <div class="subtitle">汤深深 · 作品集</div>
+    <div class="intro">
+      欢迎来到我的小小文学角落。<br>
+      这里收录了我写的一些故事，惟愿你喜欢。
+    </div>
+    <ul class="book-list">
+      <li class="book-item">
+        <a href="welcome-to-the-game.html">
+          <div class="book-title">WELCOME TO THE GAME</div>
+          <div class="book-meta">科幻小说 · 完结</div>
+          <div class="book-desc">
+            当你醒来时什么都不记得了，只知道自己是一个编号1212的战士。这是一个关于虚幻与真实、游戏与自由的故事。
+          </div>
+        </a>
+      </li>
+      <li class="book-item">
+        <a href="lost-flame-tail.html">
+          <div class="book-title">遗失的焰尾</div>
+          <div class="book-meta">科幻小说 · 完结</div>
+          <div class="book-desc">
+            一位失去灵感的作家，一只神奇的金鱼，一场关于记忆与认知的疗愈。
+          </div>
+        </a>
+      </li>
+    </ul>
+    <div class="footer">
+      &copy; 汤深深 &mdash; Built with ♥
+    </div>
+  </div>
+</body>
+</html>
